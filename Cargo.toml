@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name = "iqble"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bluer = {version = "0.15.0", features = ["bluetoothd"]}
+futures-util = "0.3.21"
+gilrs = "0.9.0"
+hex = "0.4.3"
+tokio = {version = "1.19.2", features = ["io-std", "io-util", "rt-multi-thread", "macros"]}
